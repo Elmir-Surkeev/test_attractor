@@ -16,10 +16,9 @@ public class Main {
                 System.out.println("Entered false value");
             }
 
-            Product choised =  products[choice];
+            Product choised =  products[choice-1];
             if (choised != null) {
                 handler.handleAction(choised, sc);
-
                 goodsService.saveToFile("src/products.json", products);
                 System.out.println("Изменения сохранены в базу данных.");
             }

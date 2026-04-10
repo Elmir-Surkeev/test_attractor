@@ -16,7 +16,7 @@ public class ForSaleState implements ProductState{
     public void withDraw(Product product) {
         if(!product.isBidded()){
             product.setState(new InStockState());
-            System.out.println("Товар уже на аукционе ");
+            System.out.println("Товар возвращен на склад ");
         }
     }
 

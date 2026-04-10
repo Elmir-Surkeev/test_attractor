@@ -18,7 +18,6 @@ public class HandleAction {
                     System.out.println("Выдача товара победителю...");
                     CodeStrategy strategy = CodeStrategyFactory.getStrategy(product.getPrice());
                     String generatedCode = strategy.generate(product.getId());
-
                     product.giveToTheWinner(generatedCode);
 
                     break;

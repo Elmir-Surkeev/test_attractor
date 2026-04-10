@@ -2,16 +2,16 @@
   {
     "id": "1",
     "name": "Спаситель мира (Леонардо да Винчи)",
-    "price": 4.503E8,
-    "honorary_code": "NOT_ASSIGNED",
-    "state": "In Stock"
+    "price": 1.659784829E9,
+    "honorary_code": "37445b6974425b587c7a781a46472125",
+    "state": "sold"
   },
   {
     "id": "2",
     "name": "Алжирские женщины (Версия О) (Пабло Пикассо)",
-    "price": 1.82632323E8,
-    "honorary_code": "2382984",
-    "state": "sold"
+    "price": 2.28209089E8,
+    "honorary_code": "NOT_ASSIGNED",
+    "state": "In Stock"
   },
   {
     "id": "3",
