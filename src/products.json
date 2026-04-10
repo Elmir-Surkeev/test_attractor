@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "name": "Спаситель мира (Леонардо да Винчи)",
+    "price": 4.503E8,
+    "honorary_code": "NOT_ASSIGNED",
+    "state": "In Stock"
+  },
+  {
+    "id": "2",
+    "name": "Алжирские женщины (Версия О) (Пабло Пикассо)",
+    "price": 1.82632323E8,
+    "honorary_code": "2382984",
+    "state": "sold"
+  },
+  {
+    "id": "3",
+    "name": "Бриллиант Розовая звезда",
+    "price": 7.12E7,
+    "honorary_code": "NOT_ASSIGNED",
+    "state": "In Stock"
+  },
+  {
+    "id": "4",
+    "name": "Игроки в карты (Поль Сезанн)",
+    "price": 2.5E8,
+    "honorary_code": "NOT_ASSIGNED",
+    "state": "In Stock"
+  },
+  {
+    "id": "5",
+    "name": "Лежащая обнаженная (Амедео Модильяни)",
+    "price": 1.704E8,
+    "honorary_code": "NOT_ASSIGNED",
+    "state": "In Stock"
+  },
+  {
+    "id": "6",
+    "name": "Серебряная автокатастрофа (Энди Уорхол)",
+    "price": 1.054E8,
+    "honorary_code": "NOT_ASSIGNED",
+    "state": "In Stock"
+  },
+  {
+    "id": "7",
+    "name": "Крик (Эдвард Мунк)",
+    "price": 1.199E8,
+    "honorary_code": "NOT_ASSIGNED",
+    "state": "In Stock"
+  },
+  {
+    "id": "8",
+    "name": "Скульптура Указывающий человек (Альберто Джакометти)",
+    "price": 1.413E8,
+    "honorary_code": "NOT_ASSIGNED",
+    "state": "In Stock"
+  },
+  {
+    "id": "9",
+    "name": "Колье Марии-Антуанетты с жемчугом",
+    "price": 3.62E7,
+    "honorary_code": "NOT_ASSIGNED",
+    "state": "In Stock"
+  },
+  {
+    "id": "10",
+    "name": "Часы Patek Philippe Grandmaster Chime",
+    "price": 3.119E7,
+    "honorary_code": "NOT_ASSIGNED",
+    "state": "In Stock"
+  }
+]
