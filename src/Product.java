@@ -3,15 +3,15 @@ public class Product {
     private String name;
     private double price;
     private String honoraryCode;
-    private boolean isBidded = false; // Флаг: были ли ставки
-    private ProductState state; // Текущее состояние
+    private boolean isBidded = false;
+    private ProductState state;
 
     public Product(String id, String name, double price) {
         this.id = id;
         this.name = name;
         this.price = price;
         this.honoraryCode = "NOT_ASSIGNED";
-        this.state = new InStockState(); // Начальное состояние
+        this.state = new InStockState();
     }
     public void startSale() { state.startSale(this); }
     public void raisePrice(double amount) { state.raisePrice(this, amount); }

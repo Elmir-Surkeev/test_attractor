@@ -15,9 +15,12 @@ public class HandleAction {
                     product.raisePrice(addPrice);
                     break;
                 case 3:
-                    System.out.println("Выдать супер код");
-                    String superCode = sc.next();
-                    product.giveToTheWinner(superCode);
+                    System.out.println("Выдача товара победителю...");
+                    CodeStrategy strategy = CodeStrategyFactory.getStrategy(product.getPrice());
+                    String generatedCode = strategy.generate(product.getId());
+
+                    product.giveToTheWinner(generatedCode);
+
                     break;
                 case 4:
                     product.withdraw();

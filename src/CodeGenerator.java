@@ -13,10 +13,10 @@ public class CodeGenerator {
             System.out.println("No such algorithm");
         }return "";
     }
-    private String convertToString(byte[] bytes){
-        return IntStream.range(0, bytes.length/4)
-                .map(i->bytes[i])
-                .map(i -> (i<0) ? 127: i)
+    private String convertToString(byte[] array) {
+        return IntStream.range(0, array.length)
+                .map(i -> array[i])
+                .map(i -> (i < 0) ? i + 127 : i)
                 .mapToObj(Integer::toHexString)
                 .collect(Collectors.joining());
     }
